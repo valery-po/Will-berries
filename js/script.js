@@ -1,4 +1,8 @@
 const swiper = new Swiper('.swiper-container', {
+  
+    autoplay:  {
+			delay: 3000,
+		},
   loop: true,
 
   // Navigation arrows
